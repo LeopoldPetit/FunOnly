@@ -1,7 +1,7 @@
 
 import {useEffect, useState} from "react";
 import {CardsComponents} from "./CardsComponents.jsx";
-
+import {ImageComponent} from "../GamePage/ImageComponent.jsx";  // eslint-disable-next-line react/prop-types
 
 function Main() {
 
@@ -20,10 +20,100 @@ function Main() {
 
 
     return (
+        <div className="flex items-center justify-center h-screen w-screen">
 
-        <div>
-            <CardsComponents data={gameData}/>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-auto">
+                <div>
+                    <CardsComponents data={gameData}/>
+                </div>
+                <div>
+                    <CardsComponents data={gameData}/>
+                </div>
+                <div>
+                    <CardsComponents data={gameData}/>
+                </div>
+                <div>
+                    <CardsComponents data={gameData}/>
+                </div>
+                <div>
+                    <CardsComponents data={gameData}/>
+                </div>
+                <div>
+                    <CardsComponents data={gameData}/>
+                </div>
+                <div>
+                    <CardsComponents data={gameData}/>
+                </div>
+                <div>
+                    <CardsComponents data={gameData}/>
+                </div>
+                <div>
+                    <CardsComponents data={gameData}/>
+                </div>
+                <div>
+                    <CardsComponents data={gameData}/>
+                </div>
+                <div>
+                    <CardsComponents data={gameData}/>
+                </div>
+                <div>
+                    <CardsComponents data={gameData}/>
+                </div><div>
+                <CardsComponents data={gameData}/>
+            </div>
+                <div>
+                    <CardsComponents data={gameData}/>
+                </div>
+                <div>
+                    <CardsComponents data={gameData}/>
+                </div>
+                <div>
+                    <CardsComponents data={gameData}/>
+                </div>
+                <div>
+                    <CardsComponents data={gameData}/>
+                </div>
+                <div>
+                    <CardsComponents data={gameData}/>
+                </div><div>
+                <CardsComponents data={gameData}/>
+            </div>
+                <div>
+                    <CardsComponents data={gameData}/>
+                </div>
+                <div>
+                    <CardsComponents data={gameData}/>
+                </div>
+                <div>
+                    <CardsComponents data={gameData}/>
+                </div>
+                <div>
+                    <CardsComponents data={gameData}/>
+                </div>
+                <div>
+                    <CardsComponents data={gameData}/>
+                </div><div>
+                <CardsComponents data={gameData}/>
+            </div>
+                <div>
+                    <CardsComponents data={gameData}/>
+                </div>
+                <div>
+                    <CardsComponents data={gameData}/>
+                </div>
+                <div>
+                    <CardsComponents data={gameData}/>
+                </div>
+                <div>
+                    <CardsComponents data={gameData}/>
+                </div>
+                <div>
+                    <CardsComponents data={gameData}/>
+                </div>
+
+            </div>
         </div>
+
     )
 }
 
