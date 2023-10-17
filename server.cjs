@@ -12,11 +12,11 @@ app.get("/game/3", (req, res) => {
         infos: {
             name: "Rocket League",
             description: 'Le jeu de foot avec des voitures. C\'est un jeu de sport et de course. Il est disponible sur PC, PS4, PS5, Xbox One, Xbox Series X/S et Nintendo Switch. Il est sorti le 7 juillet 2015. Il est développé par Psyonix et édité par Epic Games. Il est classé PEGI 3. Il est multijoueur. Il est disponible en français.',
-            image: '/public/rock.jpeg',
+            image: '/rock.jpeg',
             videoId: 'WwS_U2psYTY',
             website: 'https://www.rocketleague.com/fr-fr/',
             price: 19.99,
-            category: 'Sport',
+            category: 'Spt',
             platforms: ['PC', 'PS4', 'PS5', 'Xbox One', 'Xbox Series X/S', 'Nintendo Switch'],
             pegi: 3,
             editors: ['Psyonix', 'Epic Games'],

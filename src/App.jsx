@@ -1,10 +1,10 @@
 
 import './assets/App.css'
-import {ImageComponent} from './components/mainPage/ImageComponent.jsx';
+import {ImageComponent} from './components/GamePage/ImageComponent.jsx';
 import {useEffect, useState} from "react";
-import {DetailsComponent} from "./components/mainPage/detailsComponent/detailsComponent.jsx";
-import {VideoComponent} from "./components/mainPage/videoComponent.jsx";
-import {CommentsComposent} from "./components/mainPage/commentsComposent.jsx";
+import {DetailsComponent} from "./components/GamePage/detailsComponent/detailsComponent.jsx";
+import {VideoComponent} from "./components/GamePage/videoComponent.jsx";
+import {CommentsComposent} from "./components/GamePage/commentsComposent.jsx";
 
 
 function App() {
