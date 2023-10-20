@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "infos": {
+      "name": "Rocket League",
+      "description": "Le jeu de foot avec des voitures. C'est un jeu de sport et de course. Il est disponible sur PC, PS4, PS5, Xbox One, Xbox Series X/S et Nintendo Switch. Il est sorti le 7 juillet 2015. Il est développé par Psyonix et édité par Epic Games. Il est classé PEGI 3. Il est multijoueur. Il est disponible en français.",
+      "image": "/rock.jpeg",
+      "videoId": "WwS_U2psYTY",
+      "website": "https://www.rocketleague.com/fr-fr/",
+      "price": 19.99,
+      "category": "Sport",
+      "platforms": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X/S", "Nintendo Switch"],
+      "pegi": 3,
+      "editors": [
+        "Psyonix", "Epic Games"
+      ]
+    },
+    "comments": [
+      {
+        "id": 1,
+        "author": {
+          "id": 1,
+          "name": "Jean",
+          "avatar": "https://i.pravatar.cc/300?u=1"
+        },
+        "text": "J'adore ce jeu !"
+      },
+      {
+        "id": 2,
+        "author": {
+          "id": 2,
+          "name": "Pierre",
+          "avatar": "https://i.pravatar.cc/300?u=2"
+        },
+        "text": "Ca va, c'est pas mal."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "infos": {
+      "name": "Fifa 21",
+      "description": "Le jeu de foot avec des voitures. C'est un jeu de sport et de course. Il est disponible sur PC, PS4, PS5, Xbox One, Xbox Series X/S et Nintendo Switch. Il est sorti le 7 juillet 2015. Il est développé par Psyonix et édité par Epic Games. Il est classé PEGI 3. Il est multijoueur. Il est disponible en français.",
+      "image": "/fifa.jpeg",
+      "videoId": "WwS_U2psYTY",
+      "website": "https://www.rocketleague.com/fr-fr/",
+      "price": 19.99,
+      "category": "Sport",
+      "platforms": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X/S", "Nintendo Switch"],
+      "pegi": 3,
+      "editors": [
+        "Psyonix", "Epic Games"
+      ]
+    },
+    "comments": [
+      {
+        "id": 1,
+        "author": {
+          "id": 1,
+          "name": "Jean",
+          "avatar": "https://i.pravatar.cc/300?u=1"
+        },
+        "text": "J'adore ce jeu !"
+      },
+      {
+        "id": 2,
+        "author": {
+          "id": 2,
+          "name": "Pierre",
+          "avatar": "https://i.pravatar.cc/300?u=2"
+        },
+        "text": "Ca va, c'est pas mal."
+      }
+    ]
+  }
+
+]
