@@ -1,6 +1,7 @@
 
 import {CardsComponents} from "../components/HomePage/CardsComponents.jsx";
 import { NavLink, useLoaderData,} from "react-router-dom";
+import {NaveBare} from "../components/HomePage/navebare.jsx";
 
 
 
@@ -25,21 +26,19 @@ export async function loader() {
 // eslint-disable-next-line react/prop-types
 export function HomePage() {
     const { data } = useLoaderData();
-let GameData=undefined;
     return (
+        <div>
+            <NaveBare/>
             <div className={"flex justify-center items-start flex-wrap"}>
                 {data.map((gameData) => {
-                    GameData=gameData;
                     return (
                         <NavLink to={`/game/${gameData.id}`} className={"m-2"}>
                             <CardsComponents data={gameData}/>
                         </NavLink>
                     )
                 })}
-
-
-
             </div>
+        </div>
 
     )
 }
