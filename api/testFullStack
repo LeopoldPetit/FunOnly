@@ -1,0 +1,21 @@
+ <NavLink to={`/game/${GameData.id}`} className={"m-2"}>
+                    <CardsComponents data={GameData}/>
+                </NavLink>
+                <NavLink to={`/game/${GameData.id}`} className={"m-2"}>
+                    <CardsComponents data={GameData}/>
+                </NavLink>
+                <NavLink to={`/game/${GameData.id}`} className={"m-2"}>
+                    <CardsComponents data={GameData}/>
+                </NavLink>
+                <NavLink to={`/game/${GameData.id}`} className={"m-2"}>
+                    <CardsComponents data={GameData}/>
+                </NavLink>
+                <NavLink to={`/game/${GameData.id}`} className={"m-2"}>
+                    <CardsComponents data={GameData}/>
+                </NavLink>
+                <NavLink to={`/game/${GameData.id}`} className={"m-2"}>
+                    <CardsComponents data={GameData}/>
+                </NavLink>
+                <NavLink to={`/game/${GameData.id}`} className={"m-2"}>
+                    <CardsComponents data={GameData}/>
+                </NavLink>

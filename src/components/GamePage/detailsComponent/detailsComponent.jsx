@@ -1,5 +1,7 @@
 import {DescriptionComponent} from "./descriptonComponent.jsx";
 import {InfosComponent} from "./infoComponent.jsx";
+import '../../../assets/App.css'
+
 
 // eslint-disable-next-line react/prop-types
 export function DetailsComponent({data}){
