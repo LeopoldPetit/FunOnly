@@ -5,7 +5,7 @@ import {DetailsComponent} from "../components/GamePage/detailsComponent/detailsC
 import {VideoComponent} from "../components/GamePage/videoComponent.jsx";
 import {CommentsComposent} from "../components/GamePage/commentsComposent.jsx";
 import {useEffect, useState} from "react";
-import {NaveBare} from "../components/HomePage/navebare.jsx";
+import {NavebareGamePage} from "../components/GamePage/navebareGamePage.jsx";
 
 export function GamePage() {
     const [gameData, setGameData] = useState(undefined)
@@ -27,7 +27,7 @@ export function GamePage() {
 
     return (
         <div>
-            <NaveBare/>
+            <NavebareGamePage/>
             <ImageComponent data={gameData}/>
             <DetailsComponent data={gameData}/>
             <VideoComponent data={gameData}/>

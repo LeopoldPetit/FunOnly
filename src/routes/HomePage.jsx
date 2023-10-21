@@ -29,7 +29,7 @@ export function HomePage() {
     return (
         <div>
             <NaveBare/>
-            <div className={"flex justify-center items-start flex-wrap"}>
+            <div className={"flex justify-center items-start flex-wrap mx-auto"}>
                 {data.map((gameData) => {
                     return (
                         <NavLink to={`/game/${gameData.id}`} className={"m-2"}>
