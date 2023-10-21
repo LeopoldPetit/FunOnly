@@ -7,7 +7,7 @@ const app = express();
 app.use(cors())
 app.use(express.static('build'))
 app.use(express.json())
-const games = JSON.parse(fs.readFileSync("data.json"))
+const games = JSON.parse(fs.readFileSync("api/my_data/data.json"))
 app.get("/games", (req, res) => {
     return res.send(games)
 })
