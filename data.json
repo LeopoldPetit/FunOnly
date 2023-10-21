@@ -39,7 +39,7 @@
   {
     "id": 2,
     "infos": {
-      "name": "Fifa 21",
+      "name": "Fifa 23",
       "description": "Le jeu de foot avec des voitures. C'est un jeu de sport et de course. Il est disponible sur PC, PS4, PS5, Xbox One, Xbox Series X/S et Nintendo Switch. Il est sorti le 7 juillet 2015. Il est développé par Psyonix et édité par Epic Games. Il est classé PEGI 3. Il est multijoueur. Il est disponible en français.",
       "image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_2.0/c_scale,w_1000/ncom/software/switch/70010000047794/40f9e2f6d344d2607d4be72c6c4ebd3c18717ff87a56d6bbc303c42e58dd570d",
       "videoId": "WwS_U2psYTY",
@@ -72,6 +72,186 @@
         "text": "Ca va, c'est pas mal."
       }
     ]
+  },
+  {
+    "id": 3,
+    "infos": {
+      "name": "The Witcher 3: Wild Hunt",
+      "description": "Un jeu de rôle d'action en monde ouvert basé sur la série de livres Witcher. Il offre une histoire épique, des quêtes complexes et des choix moraux. Disponible sur PC, PS4, Xbox One et Nintendo Switch. Sorti le 19 mai 2015. Développé par CD Projekt Red et édité par CD Projekt. Classé PEGI 18. Mode solo.",
+      "image": "https://i.pinimg.com/originals/7f/22/75/7f227566b4b2e541d5dfe523d9503dd6.jpg",
+      "videoId": "nlTjhkEXyvU",
+      "website": "https://thewitcher.com/",
+      "price": 29.99,
+      "category": "Action-RPG",
+      "platforms": ["PC", "PS4", "Xbox One", "Nintendo Switch"],
+      "pegi": 18,
+      "editors": ["CD Projekt Red"]
+    },
+    "comments": [
+      {
+        "id": 1,
+        "author": {
+          "id": 1,
+          "name": "Alice",
+          "avatar": "https://i.pravatar.cc/300?u=3"
+        },
+        "text": "L'un des meilleurs jeux de tous les temps !"
+      },
+      {
+        "id": 2,
+        "author": {
+          "id": 2,
+          "name": "Bob",
+          "avatar": "https://i.pravatar.cc/300?u=4"
+        },
+        "text": "Graphismes incroyables et histoire captivante."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "infos": {
+      "name": "Minecraft",
+      "description": "Un jeu de construction et d'aventure où les joueurs peuvent explorer des mondes infinis et construire tout ce qu'ils peuvent imaginer avec des blocs. Disponible sur PC, consoles, et mobiles. Sorti le 18 novembre 2011. Développé et édité par Mojang Studios. Classé PEGI 7. Multijoueur.",
+      "image": "https://cdn2.tfx.company/images/thumb-1920-1128578.jpg",
+      "videoId": "MmB9b5njVbA",
+      "website": "https://www.minecraft.net/",
+      "price": 24.99,
+      "category": "Sandbox",
+      "platforms": ["PC", "Consoles", "Mobile"],
+      "pegi": 7,
+      "editors": ["Mojang Studios"]
+    },
+    "comments": [
+      {
+        "id": 1,
+        "author": {
+          "id": 1,
+          "name": "Eva",
+          "avatar": "https://i.pravatar.cc/300?u=5"
+        },
+        "text": "Un jeu créatif incroyable !"
+      },
+      {
+        "id": 2,
+        "author": {
+          "id": 2,
+          "name": "David",
+          "avatar": "https://i.pravatar.cc/300?u=6"
+        },
+        "text": "J'adore l'aspect infini du monde."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "infos": {
+      "name": "Overwatch",
+      "description": "Un jeu de tir en équipe multijoueur en ligne où les joueurs incarnent des héros aux capacités uniques dans des affrontements compétitifs. Disponible sur PC, PS4, Xbox One et Nintendo Switch. Sorti le 24 mai 2016. Développé et édité par Blizzard Entertainment. Classé PEGI 12. Multijoueur.",
+      "image": "https://images4.alphacoders.com/553/553496.jpg",
+      "videoId": "FqnKB22pOC0",
+      "website": "https://playoverwatch.com/",
+      "price": 39.99,
+      "category": "FPS",
+      "platforms": ["PC", "PS4", "Xbox One", "Nintendo Switch"],
+      "pegi": 12,
+      "editors": ["Blizzard Entertainment"]
+    },
+    "comments": [
+      {
+        "id": 1,
+        "author": {
+          "id": 1,
+          "name": "Oliver",
+          "avatar": "https://i.pravatar.cc/300?u=7"
+        },
+        "text": "Gameplay rapide et excitant !"
+      },
+      {
+        "id": 2,
+        "author": {
+          "id": 2,
+          "name": "Sophie",
+          "avatar": "https://i.pravatar.cc/300?u=8"
+        },
+        "text": "Les graphismes sont incroyables."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "infos": {
+      "name": "Fortnite",
+      "description": "Un jeu de battle royale multijoueur en ligne où 100 joueurs se battent pour être le dernier survivant. Le jeu propose également un mode de construction unique. Disponible sur PC, consoles et mobiles. Sorti le 25 juillet 2017. Développé et édité par Epic Games. Classé PEGI 12. Multijoueur.",
+      "image": "https://cdn.sortiraparis.com/images/80/66131/908390-fortnite-enfer-vert-map-skins-passe-de-combat-le-point-sur-les-nouveautes-de-la-saison-3.jpg",
+      "videoId": "KfH9cRkK0QQ",
+      "website": "https://www.epicgames.com/fortnite/fr/home",
+      "price": 0,
+      "category": "Battle Royale",
+      "platforms": ["PC", "Consoles", "Mobile"],
+      "pegi": 12,
+      "editors": ["Epic Games"]
+    },
+    "comments": [
+      {
+        "id": 1,
+        "author": {
+          "id": 1,
+          "name": "Liam",
+          "avatar": "https://i.pravatar.cc/300?u=9"
+        },
+        "text": "Un jeu amusant et addictif !"
+      },
+      {
+        "id": 2,
+        "author": {
+          "id": 2,
+          "name": "Emma",
+          "avatar": "https://i.pravatar.cc/300?u=10"
+        },
+        "text": "Les skins sont super cool."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "infos": {
+      "name": "League of Legends",
+      "description": "Un jeu de stratégie en ligne multijoueur massivement multijoueur (MOBA) où les joueurs contrôlent des champions aux pouvoirs uniques dans des affrontements en équipe. Disponible sur PC. Sorti le 27 octobre 2009. Développé et édité par Riot Games. Classé PEGI 12. Multijoueur.",
+      "image": "https://cdn1.epicgames.com/offer/24b9b5e323bc40eea252a10cdd3b2f10/EGS_LeagueofLegends_RiotGames_S1_2560x1440-2935d0a3e332decb8e727fe56789b6ab",
+      "videoId": "IzMnCv_lPxI",
+      "website": "https://na.leagueoflegends.com/",
+      "price": 0,
+      "category": "MOBA",
+      "platforms": ["PC"],
+      "pegi": 12,
+      "editors": ["Riot Games"]
+    },
+    "comments": [
+      {
+        "id": 1,
+        "author": {
+          "id": 1,
+          "name": "Sophia",
+          "avatar": "https://i.pravatar.cc/300?u=11"
+        },
+        "text": "Un jeu compétitif incroyable !"
+      },
+      {
+        "id": 2,
+        "author": {
+          "id": 2,
+          "name": "Daniel",
+          "avatar": "https://i.pravatar.cc/300?u=12"
+        },
+        "text": "La scène e-sport est impressionnante."
+      }
+    ]
   }
+
+
+
+
+
 
 ]
