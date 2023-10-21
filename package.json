@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start:api": "nodemon server.cjs",
+    "start:api": "nodemon api/server.cjs",
     "start:react": "vite",
     "dev": "concurrently \"npm run start:api\" \"npm run start:react\"",
     "build": "vite build",
