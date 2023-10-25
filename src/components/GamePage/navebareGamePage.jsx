@@ -6,7 +6,7 @@ export function NavebareGamePage(){
         <nav className="colorNaveBar border-gray-200 fixed top-0 z-10 w-screen NaveBorder">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
                 <div className="flex items-center space-x-4 lg:space-x-0">
-                    <img src="/Logo.png" className="h-16 mr-3 borderRounded" alt="Flowbite Logo" onClick={() => navigate(-1)} />
+                    <img src="/logo.png" className="h-16 mr-3 borderRounded" alt="Flowbite Logo" onClick={() => navigate(-1)} />
                     <img src="/NameLogo.png" className="h-16 mr-3 borderRounded" alt="Flowbite Logo" onClick={() => navigate(-1)} />
                 </div>
                 <div className="hidden w-full md:block md:w-auto flex-2" id="navbar-default">
