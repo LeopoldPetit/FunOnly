@@ -9,10 +9,18 @@
       "website": "https://www.rocketleague.com/fr-fr/",
       "price": 19.99,
       "category": "Sport",
-      "platforms": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X/S", "Nintendo Switch"],
+      "platforms": [
+        "PC",
+        "PS4",
+        "PS5",
+        "Xbox One",
+        "Xbox Series X/S",
+        "Nintendo Switch"
+      ],
       "pegi": 3,
       "editors": [
-        "Psyonix", "Epic Games"
+        "Psyonix",
+        "Epic Games"
       ]
     },
     "comments": [
@@ -46,10 +54,18 @@
       "website": "https://www.rocketleague.com/fr-fr/",
       "price": 19.99,
       "category": "Sport",
-      "platforms": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X/S", "Nintendo Switch"],
+      "platforms": [
+        "PC",
+        "PS4",
+        "PS5",
+        "Xbox One",
+        "Xbox Series X/S",
+        "Nintendo Switch"
+      ],
       "pegi": 3,
       "editors": [
-        "Psyonix", "Epic Games"
+        "Psyonix",
+        "Epic Games"
       ]
     },
     "comments": [
@@ -83,9 +99,16 @@
       "website": "https://thewitcher.com/",
       "price": 29.99,
       "category": "Action-RPG",
-      "platforms": ["PC", "PS4", "Xbox One", "Nintendo Switch"],
+      "platforms": [
+        "PC",
+        "PS4",
+        "Xbox One",
+        "Nintendo Switch"
+      ],
       "pegi": 18,
-      "editors": ["CD Projekt Red"]
+      "editors": [
+        "CD Projekt Red"
+      ]
     },
     "comments": [
       {
@@ -118,9 +141,15 @@
       "website": "https://www.minecraft.net/",
       "price": 24.99,
       "category": "Sandbox",
-      "platforms": ["PC", "Consoles", "Mobile"],
+      "platforms": [
+        "PC",
+        "Consoles",
+        "Mobile"
+      ],
       "pegi": 7,
-      "editors": ["Mojang Studios"]
+      "editors": [
+        "Mojang Studios"
+      ]
     },
     "comments": [
       {
@@ -153,9 +182,16 @@
       "website": "https://playoverwatch.com/",
       "price": 39.99,
       "category": "FPS",
-      "platforms": ["PC", "PS4", "Xbox One", "Nintendo Switch"],
+      "platforms": [
+        "PC",
+        "PS4",
+        "Xbox One",
+        "Nintendo Switch"
+      ],
       "pegi": 12,
-      "editors": ["Blizzard Entertainment"]
+      "editors": [
+        "Blizzard Entertainment"
+      ]
     },
     "comments": [
       {
@@ -188,9 +224,15 @@
       "website": "https://www.epicgames.com/fortnite/fr/home",
       "price": 0,
       "category": "Battle Royale",
-      "platforms": ["PC", "Consoles", "Mobile"],
+      "platforms": [
+        "PC",
+        "Consoles",
+        "Mobile"
+      ],
       "pegi": 12,
-      "editors": ["Epic Games"]
+      "editors": [
+        "Epic Games"
+      ]
     },
     "comments": [
       {
@@ -223,9 +265,13 @@
       "website": "https://na.leagueoflegends.com/",
       "price": 0,
       "category": "MOBA",
-      "platforms": ["PC"],
+      "platforms": [
+        "PC"
+      ],
       "pegi": 12,
-      "editors": ["Riot Games"]
+      "editors": [
+        "Riot Games"
+      ]
     },
     "comments": [
       {
@@ -248,10 +294,4 @@
       }
     ]
   }
-
-
-
-
-
-
 ]
