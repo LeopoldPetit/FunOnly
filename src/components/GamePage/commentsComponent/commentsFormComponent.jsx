@@ -17,7 +17,7 @@ export function CommentsFormComponent(){
                 <label htmlFor="comment" className="sr-only">Your comment</label>
                 <textarea id="comment" rows="6"
                           ref={commentTextArea}
-                          className="px-0 w-full text-sm text-gray-900 border-0 bgColor focus:ring-0 focus:outline-none "
+                          className="px-0 w-full text-gray-200 border-0 bgColor focus:ring-0 focus:outline-none "
                           placeholder="Write a comment..." required></textarea>
             </div>
             <button type="submit"
