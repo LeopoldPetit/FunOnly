@@ -69,9 +69,7 @@ export const GameContextProvider = ({children}) => {
         }
     }
 
-    const addGame = () => {
-        console.log("addGame")
-    }
+
     const contextValue = {
         // l'état
         game,
@@ -79,8 +77,8 @@ export const GameContextProvider = ({children}) => {
         // les actions
         loadGame,
         sendComment,
-        deleteComment,
-        addGame
+        deleteComment
+
     }
     return (
         <GameContext.Provider value={contextValue}>

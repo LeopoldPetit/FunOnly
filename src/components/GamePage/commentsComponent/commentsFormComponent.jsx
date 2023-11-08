@@ -2,7 +2,7 @@ import {useGame} from "../useGame.jsx";
 import {useRef} from "react";
 
 export function CommentsFormComponent(){
-    const {game, sendComment, addGame} = useGame()
+    const {game, sendComment} = useGame()
     const commentTextArea = useRef()
     async function onSubmit(e) {
         e.preventDefault()
