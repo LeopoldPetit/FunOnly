@@ -8,12 +8,10 @@ export const GameContextProvider = ({children}) => {
     const [game, setGame] = useState(null)
     const [error, setError] = useState(null)
     const loadGame = async (id) => {
-        console.log("loadGame", id)
         setError(null)
         try {
             const response = await fetch('http://localhost:3001/game/' + id);
             const game = await response.json();
-            console.log(game)
             setGame(game);
         } catch (e) {
             setError(e)

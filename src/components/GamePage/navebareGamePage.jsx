@@ -1,4 +1,5 @@
 import {useNavigate} from "react-router-dom";
+import {useGame} from "./useGame.jsx";
 
 export function NavebareGamePage(){
     const navigate = useNavigate()
