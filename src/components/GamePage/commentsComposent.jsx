@@ -1,4 +1,17 @@
+import {useRef} from "react";
+import {useGame} from "./useGame.js";
+
 export function CommentsComposent(){
+    const {game, sendComment, addGame} = useGame()
+    const commentTextArea = useRef()
+    async function onSubmit(e) {
+        e.preventDefault()
+        const comment = commentTextArea.current.value
+        console.log("onSubmit", game, comment)
+        sendComment(comment)
+        commentTextArea.current.value = ""
+    }
+
     return (
         <section className="bgColor py-8 lg:py-16 antialiased">
             <div className="max-w-2xl mx-auto px-4">
@@ -25,8 +38,7 @@ export function CommentsComposent(){
                                 className="mr-2 w-6 h-6 rounded-full"
                                 src="https://flowbite.com/docs/images/people/profile-picture-2.jpg"
                                 alt="Michael Gough"></img>Michael Cough</p>
-                            {/* eslint-disable-next-line react/no-unknown-property */}
-                            <p className="text-sm textColor dark:text-gray-400"><time pubdate dateTime="2022-02-08"
+                            <p className="text-sm textColor dark:text-gray-400"><time  dateTime="2022-02-08"
                                                                                       title="February 8th, 2022">Feb. 8, 2022</time></p>
                         </div>
                         <button id="dropdownComment1Button" data-dropdown-toggle="dropdownComment1"
