@@ -9,6 +9,7 @@ import ErrorPage from "./routes/error-page.jsx";
 
 import {loader as rootLoader, HomePage} from "./routes/HomePage.jsx";
 import {GamePage} from "./routes/GamePage.jsx";
+import {LoginPage} from "./routes/LoginPage.jsx";
 
 
 
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
     {
         path: "/game/:id",
         element: <GamePage />,
+    },
+    {
+        path: "/Login",
+        element: <LoginPage />,
     },
 ]);
 
